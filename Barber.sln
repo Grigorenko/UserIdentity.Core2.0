@@ -7,11 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Barber", "Barber\Barber.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Barber.Data.Entities", "Barber.Data.Entities\Barber.Data.Entities.csproj", "{D6C23D52-D5ED-4F44-9D40-FE4E99A96E0C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Barber.Data.Abstraction", "Barber.Data.Abstraction\Barber.Data.Abstraction.csproj", "{3EE1DFF6-A31E-4AEC-8C07-FB8E7D8B039B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Barber.Data.Abstraction", "Barber.Data.Abstraction\Barber.Data.Abstraction.csproj", "{3EE1DFF6-A31E-4AEC-8C07-FB8E7D8B039B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Barber.Data.Sqlite", "Barber.Data.Sqlite\Barber.Data.Sqlite.csproj", "{5C745B70-501E-456C-B2DB-5C0EE5A34E62}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Barber.Data.Sqlite", "Barber.Data.Sqlite\Barber.Data.Sqlite.csproj", "{5C745B70-501E-456C-B2DB-5C0EE5A34E62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Barber.Shared", "Barber.Shared\Barber.Shared.csproj", "{1B4908E1-9E0C-40AC-BCE4-E67BE1114E06}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Barber.Shared", "Barber.Shared\Barber.Shared.csproj", "{1B4908E1-9E0C-40AC-BCE4-E67BE1114E06}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

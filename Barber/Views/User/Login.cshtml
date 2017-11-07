@@ -1,0 +1,18 @@
+﻿
+@inject Barber.IUserManager UserManager
+@using System.Security.Claims
+@{
+  ViewData["Title"] = "Login";
+  Layout = "_Layout";
+}
+<h1>Login Page</h1>
+
+<form class="form" action="/user/login" method="post">
+  <div class="form__fields fields">
+    <input type="text" name="identifier" placeholder="Identifier" />
+    <input type="password" name="secret" placeholder="Secret" />
+  </div>
+  <div class="form__buttons buttons">
+    <button type="submit">Login user</button>
+  </div>
+</form>

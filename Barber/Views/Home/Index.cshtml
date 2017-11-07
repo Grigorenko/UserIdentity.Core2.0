@@ -1,6 +1,9 @@
 ﻿
 @inject Barber.IUserManager UserManager
 @using System.Security.Claims
+@{ 
+  Layout = "_Layout";
+}
 <h1>ASP.NET Core<br />Custom User Manager</h1>
 <div class="form__field field">
   <span class="marker marker--secondary">User.Identity.IsAuthenticated:</span> @User.Identity.IsAuthenticated
@@ -16,20 +19,4 @@
   <div class="form__field field">
     <span class="marker marker--secondary">User.HasClaim("Permission", "DoEverything"):</span> @User.HasClaim("Permission", "DoEverything")
   </div>
-}
-@if (this.User.Identity.IsAuthenticated)
-{
-  <form class="form" action="/home/logout" method="post">
-    <div class="form__buttons buttons">
-      <button type="submit">Logout user</button>
-    </div>
-  </form>
-}
-else
-{
-  <form class="form" action="/home/login" method="post">
-    <div class="form__buttons buttons">
-      <button type="submit">Login user</button>
-    </div>
-  </form>
 }

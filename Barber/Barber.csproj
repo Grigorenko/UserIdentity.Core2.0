@@ -14,4 +14,7 @@
     <ProjectReference Include="..\Barber.Data.Sqlite\Barber.Data.Sqlite.csproj" />
     <ProjectReference Include="..\Barber.Shared\Barber.Shared.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="wwwroot\images\" />
+  </ItemGroup>
 </Project>
