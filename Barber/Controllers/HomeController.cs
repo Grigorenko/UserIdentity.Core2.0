@@ -1,14 +1,13 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Barber.Data.Entities;
+using Microsoft.AspNetCore.Mvc;
 
 namespace Barber.Controllers
 {
-  public class HomeController : Controller
+  public class HomeController : ControllerBase
   {
-    private IUserManager userManager;
-
-    public HomeController(IUserManager userManager)
+    public HomeController(Storage storage, IUserManager userManager)
+      : base(storage, userManager)
     {
-      this.userManager = userManager;
     }
 
     [HttpGet]
