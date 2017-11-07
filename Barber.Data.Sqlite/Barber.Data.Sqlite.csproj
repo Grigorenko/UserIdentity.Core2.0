@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Barber.Data.Abstraction\Barber.Data.Abstraction.csproj" />
+    <ProjectReference Include="..\Barber.Data.Entities\Barber.Data.Entities.csproj" />
+    <ProjectReference Include="..\Barber.Shared\Barber.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

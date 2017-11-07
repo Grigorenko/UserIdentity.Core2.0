@@ -1,0 +1,10 @@
+.vs/
+bin/
+obj/
+Barber/wwwroot/css
+Barber/wwwroot/js
+Barber/wwwroot/lib
+Barber/wwwroot/images
+Barber/Properties/PublishProfiles
+
+Barber/Pages
