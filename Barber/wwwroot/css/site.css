@@ -1,0 +1,50 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.nav-bar {
+  width: 60%;
+  height: 50px;
+  background: #222;
+  color: #fff;
+  padding-left: 20%;
+  padding-right: 20%;
+  margin-top: 10px;
+  line-height: 50px;
+  margin: 0;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-bar a:hover {
+  color: #fff;
+}
+
+.nav-bar .home {
+  font-size: 24px;
+  padding-right: 15px;
+}
+
+.nav-bar .menu-item {
+  font-size: 20px;
+  padding: 0 10px;
+}
+
+.nav-bar .menu-item-right {
+  float: right;
+}
+
+.container {
+  margin-left: 20%;
+  margin-right: 20%;
+  width: 60%;
+}
+
+.form__fields input {
+  display: block;
+  margin: 5px 0;
+}

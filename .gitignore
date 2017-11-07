@@ -1,8 +1,8 @@
 .vs/
 bin/
 obj/
-Barber/wwwroot/css
-Barber/wwwroot/js
+*.min.css
+*.min.js
 Barber/wwwroot/lib
 Barber/wwwroot/images
 Barber/Properties/PublishProfiles
